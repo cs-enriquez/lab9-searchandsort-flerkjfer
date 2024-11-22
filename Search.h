@@ -133,6 +133,6 @@ void newSort(double darray[], int n) {
     for(int i = 0; i < n -1; i++){ //last one will be swapped by the time we reach it so, n -1
         int mindex = i + minFind(&darray[i], n -i); //getting the min index
         swap(darray, mindex, i); //swapping values with current 
-        //we loop this,
+        //we loop this, adding text to new commit
     }
 }
